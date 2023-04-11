@@ -19,8 +19,8 @@ from linebot.models import (
 app = Flask(__name__)
 
 # アクセストークン取得
-line_bot_api = LineBotApi("A3hHLDTYZQn/B45onfS1n8lbkAZNc9TlFHmSE1S5BBopoyV3VmI71YgG7WrQOq734S9B9r1PA5mrxMv3k6tiatLjvINLYxHZlSc0yOtWz5x9/LySATgCykyX8ADUkksMO0gZ8fmx//hT6iekTvCb6wdB04t89/1O/w1cDnyilFU=")
-handler = WebhookHandler("759f9e93d59f1ec73282d53b066a2ec6")
+line_bot_=("")
+handler = WebhookHandler("")
 
 
 @app.route("/")
